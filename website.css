@@ -172,7 +172,7 @@ span {
     font-size: 1.4em;
     margin-bottom: 10px;
     font-family: 'Playfair Display', serif;
-
+    
 }
 
 .portfolio-content p {
@@ -189,8 +189,9 @@ span {
 
 .social-links {
   background-color: rgb(250,100,0); /* Dark blue background */
-  padding: 20px;
+  padding: 50px;
   text-align: center;
+  
 }
 
 .link {
@@ -217,3 +218,9 @@ span {
     font-size: 18px;
   }
 }
+
+html, * {
+  scroll-behavior: lazy;
+
+}
+
