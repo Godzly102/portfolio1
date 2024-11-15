@@ -24,16 +24,16 @@
             <ul id="list1">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Projects">Projects</a></li>
-                <li><a href="Links">Links</a></li>
+                <li><a href="#sec">Links</a></li>
             </ul>
          </nav>
 	 </header>
 
 
-     <section >
+     <section id="About" >
        
 	    <div class="sum">
-		  <p id="About" class="par">"Hi, I’m Jose Paredes, a data analyst with a background in SQL, Python, and Tableau. I love turning raw data into clear insights, using data cleaning, visualization, and statistical techniques to drive decisions and uncover trends. Whether it's through SQL queries, building Tableau dashboards, or crafting predictive models, I'm dedicated to making data work for businesses and bringing clarity to complex datasets.".</p>
+		  <p  class="par">"Hi, I’m Jose Paredes, a data analyst with a background in SQL, Python, and Tableau. I love turning raw data into clear insights, using data cleaning, visualization, and statistical techniques to drive decisions and uncover trends. Whether it's through SQL queries, building Tableau dashboards, or crafting predictive models, I'm dedicated to making data work for businesses and bringing clarity to complex datasets.".</p>
      </section>
 	    </div>
         <div id="projects">
@@ -60,56 +60,61 @@
    </section>
    
 
-<h2>These are some projects i have done... </h2>
+<h2 id="Projects">These are some projects i have done... </h2>
 
 
 
-<div id="Projects" class="portfolio-container">
+<div  class="portfolio-container">
     <div class="portfolio-item">
-        <a href="#project1" class="portfolio-link">
-            <div class="portfolio-content">
-                <h3>Project 1</h3>
-                <p>Data Analysis with SQL and Tableau</p>
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/AustinMarket.sql" class="portfolio-link">
+            <div id="1s" class="portfolio-content">
+                <h3>Austin Market - SQL/Python</h3>
+                <p>This project cleans and standardizes Austin housing data by removing outliers, normalizing numerical features, handling missing values, and standardizing text data. It also calculates useful metrics, including price per square foot and property age, to enhance analysis of real estate trends.</p>
             </div>
         </a>
     </div>
     <div class="portfolio-item">
-        <a href="#project2" class="portfolio-link">
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/NetflixSQL.sql" class="portfolio-link">
             <div class="portfolio-content">
-                <h3>Project 2</h3>
-                <p>Web Scraping with Python</p>
+                <h3>Netflix & Global Market</h3>
+                <p>
+This SQL/Python script retrieves unique countries from Netflix titles, then filters for U.S.-produced titles. It also counts releases per year, lists top countries by title count, and ranks popular directors by their number of titles.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="portfolio-item">
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/1Amazon.sql" class="portfolio-link">
+            <div class="portfolio-content">
+                <h3>Amazon - SQL</h3>
+                <p>This project transforms and analyzes Amazon product data to extract insights on top-selling companies, popular product categories, and discount trends. By parsing product names, cleaning price data, and exploring relationships between ratings and prices, it provides a clearer view of product performance across various metrics.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="portfolio-item">
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/fuel.py" class="portfolio-link">
+            <div class="portfolio-content">
+                <h3>Cars and Fuel - Python</h3>
+                <p>
+This Python script loads the cleaned fuel dataset and calculates estimated annual fuel costs based on city and highway MPG for rows with missing values. It groups the data by car make, calculates average MPG, fuel cost, and engine cylinder counts, and visualizes the results with a bar and line plot showing MPG, annual fuel cost, and engine cylinders by car make.</p>
             </div>
         </a>
     </div>
     <div class="portfolio-item">
-        <a href="#project3" class="portfolio-link">
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/SQLProject1.sql" class="portfolio-link">
             <div class="portfolio-content">
-                <h3>Project 3</h3>
-                <p>Machine Learning with Scikit-Learn</p>
+                <h3>COVID-19 - SQL</h3>
+                <p>This SQL script performs a comprehensive analysis of COVID-19 data, including death and vaccination statistics, across various countries and continents. It calculates death percentages, survival rates, infection rates, and vaccination coverage, while also creating temporary tables and views to track rolling vaccinations, and then visualizes the results for deeper insights into the global impact of the pandemic.</p>
             </div>
         </a>
     </div>
     <div class="portfolio-item">
-        <a href="#project4" class="portfolio-link">
+        <a href="https://github.com/Godzly102/Porfolio1/blob/main/SQLProject2.sql" class="portfolio-link">
             <div class="portfolio-content">
-                <h3>Project 4</h3>
-                <p>Portfolio Website Design</p>
-            </div>
-        </a>
-    </div>
-    <div class="portfolio-item">
-        <a href="#project5" class="portfolio-link">
-            <div class="portfolio-content">
-                <h3>Project 5</h3>
-                <p>Data Visualization in Python</p>
-            </div>
-        </a>
-    </div>
-    <div class="portfolio-item">
-        <a href="#project6" class="portfolio-link">
-            <div class="portfolio-content">
-                <h3>Project 6</h3>
-                <p>Automation with Python</p>
+                <h3>Cleaning Data - SQL</h3>
+                <p>
+This SQL script cleans the property sales data by converting date formats, splitting address fields into individual components, and standardizing values like SoldAsVacant. It also removes duplicates and unnecessary columns to ensure the dataset is clean and ready for analysis.</p>
             </div>
         </a>
     </div>
@@ -118,17 +123,17 @@
     
     
       
-    </div>
-    <h2> Lets work together...</h2>
+   </div>
+    <h2 id="sec"> Lets work together. </h2>
     <div class="social-links">
     <a href="https://www.linkedin.com/in/jose-paredes-84844313b/" target="_blank" class="link">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
-    <a href="https://github.com" target="_blank" class="link">
+    <a href="https://github.com/Godzly102/Porfolio1" target="_blank" class="link">
       <i class="fab fa-github"></i> GitHub
     </a>
     
-    <a href="mailto:jose.paredes@example.com" class="link">
+    <a href="mailto:eddumail102@example.com" class="link">
       <i class="fas fa-envelope"></i> Email
     </a>
   </div>
